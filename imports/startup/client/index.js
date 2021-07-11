@@ -1,11 +1,12 @@
 import React from "react";
-import { Meteor } from "meteor/meteor";
 import { render } from "react-dom";
-import { HttpLink } from "apollo-link-http";
-// import { InMemoryCache } from "apollo-client-preset";
-import { InMemoryCache } from "apollo-cache-inmemory";
-import ApolloClient from "apollo-client";
 import { ApolloProvider } from "react-apollo";
+
+// import { HttpLink } from "apollo-link-http";
+// import { InMemoryCache } from "apollo-cache-inmemory";
+import { Meteor } from "meteor/meteor";
+import { HttpLink, InMemoryCache } from "apollo-client-preset";
+import ApolloClient from "apollo-client";
 
 import App from "../../ui/App";
 

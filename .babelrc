@@ -1,0 +1,3 @@
+{
+  "plugins": ["babel-pulgin-inline-import"]
+}
